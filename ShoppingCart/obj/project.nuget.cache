@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rPhIOA9wcAa12r+iHi9c1hBwp+tcL9B2NjSB0cCYojUhxSDoekjy750PxfAf43alRX7Pk5HZEtvaPlFUerGFnQ==",
+  "dgSpecHash": "CKBNY1o+75V4gHpcbdXR8m2l9RRsUq8eLE+N1HOyur2gI0YwGWQnJpc8HxKEjO9QZbO5IkOptBVkTiolIigskA==",
   "success": true,
-  "projectFilePath": "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\ShoppingCart\\ShoppingCart.csproj",
+  "projectFilePath": "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\jwtToken\\ShoppingCart\\ShoppingCart.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
