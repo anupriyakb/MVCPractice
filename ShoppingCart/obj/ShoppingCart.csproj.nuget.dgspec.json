@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\ShoppingCart\\ShoppingCart.csproj": {}
+    "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\jwtToken\\ShoppingCart\\ShoppingCart.csproj": {}
   },
   "projects": {
-    "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\ShoppingCart\\ShoppingCart.csproj": {
+    "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\jwtToken\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\jwtToken\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\ShoppingCart\\ShoppingCart.csproj",
+        "projectPath": "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\jwtToken\\ShoppingCart\\ShoppingCart.csproj",
         "packagesPath": "C:\\Users\\pranu\\.nuget\\packages\\",
-        "outputPath": "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\ShoppingCart\\obj\\",
+        "outputPath": "C:\\A AnushaDrive\\GITHub Source\\MVCPractice\\jwtToken\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -32,7 +32,7 @@ namespace ShoppingCart
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("My First MVC in GIT!");
                 });
             });
         }
