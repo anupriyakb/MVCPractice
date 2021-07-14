@@ -11,6 +11,7 @@ namespace ShoppingCart
         public IActionResult Index()
         {
             return View();
+//Print
         }
     }
 }
