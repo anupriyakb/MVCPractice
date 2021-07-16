@@ -81,3 +81,8 @@ C:\Mathuri\GitHub Projects\MVCPractice\LocalShoppingCart\ShoppingCart\obj\Debug\
 C:\Mathuri\GitHub Projects\MVCPractice\LocalShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.dll
 C:\Mathuri\GitHub Projects\MVCPractice\LocalShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.pdb
 C:\Mathuri\GitHub Projects\MVCPractice\LocalShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.genruntimeconfig.cache
+C:\Mathuri\GitHub Projects\MVCPractice\LocalShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
+C:\Mathuri\GitHub Projects\MVCPractice\LocalShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\Razor\Views\Category\Upsert.cshtml.g.cs
+C:\Mathuri\GitHub Projects\MVCPractice\LocalShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
+C:\Mathuri\GitHub Projects\MVCPractice\LocalShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
+C:\Mathuri\GitHub Projects\MVCPractice\LocalShoppingCart\ShoppingCart\obj\Debug\netcoreapp3.1\ShoppingCart.csproj.AssemblyReference.cache
