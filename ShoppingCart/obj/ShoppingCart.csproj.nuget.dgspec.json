@@ -1,28 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mathuri\\GitHub Projects\\MVCPractice\\LocalShoppingCart\\ShoppingCart\\ShoppingCart.csproj": {}
+    "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\ShoppingCart.csproj": {}
   },
   "projects": {
-    "C:\\Mathuri\\GitHub Projects\\MVCPractice\\LocalShoppingCart\\ShoppingCart\\ShoppingCart.csproj": {
+    "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mathuri\\GitHub Projects\\MVCPractice\\LocalShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "C:\\Mathuri\\GitHub Projects\\MVCPractice\\LocalShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
-        "packagesPath": "C:\\Users\\Mathuri\\.nuget\\packages\\",
-        "outputPath": "C:\\Mathuri\\GitHub Projects\\MVCPractice\\LocalShoppingCart\\ShoppingCart\\obj\\",
+        "projectPath": "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mathuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -40,33 +46,39 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
             "Microsoft.AspNetCore.Razor.Runtime": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[3.1.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[3.1.15, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -87,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

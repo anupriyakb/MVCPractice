@@ -75,7 +75,7 @@ namespace ShoppingCart.Migrations
                         .WithMany()
                         .HasForeignKey("CategoryId");
 
-                    b.Navigation("Category");
+                    //b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }
