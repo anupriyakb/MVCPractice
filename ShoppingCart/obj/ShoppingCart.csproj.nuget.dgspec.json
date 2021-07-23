@@ -1,34 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\ShoppingCart.csproj": {}
+    "C:\\A AnushaDrive\\GITHub Source\\Practice-jul\\ShoppingCart\\ShoppingCart.csproj": {}
   },
   "projects": {
-    "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\ShoppingCart.csproj": {
+    "C:\\A AnushaDrive\\GITHub Source\\Practice-jul\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "C:\\A AnushaDrive\\GITHub Source\\Practice-jul\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\ShoppingCart.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "D:\\D-DRIVE\\GitHub_Repository\\GitHub\\MVCPractice\\Login\\ShoppingCart\\obj\\",
+        "projectPath": "C:\\A AnushaDrive\\GITHub Source\\Practice-jul\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\pranu\\.nuget\\packages\\",
+        "outputPath": "C:\\A AnushaDrive\\GITHub Source\\Practice-jul\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pranu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -46,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -75,6 +77,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.15, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

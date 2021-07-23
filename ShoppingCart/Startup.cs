@@ -5,12 +5,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using ShoppingCart.Models;
 using ShoppingCart.Repository;
 using ShoppingCart.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 //using AuthSystem.Models;
 //using AuthSystem.Repository;
@@ -46,6 +48,15 @@ namespace ShoppingCart
             services.AddMvc().AddXmlSerializerFormatters();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddRazorPages();
+
+            services.AddAuthentication()
+                .AddJwtBearer(option =>
+                option.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidIssuer = JWTConstants.Issuer,
+                    IssuerSigningKey = new
+                    SymmetricSecurityKey(Encoding.UTF8.GetBytes(JWTConstants.Key))
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +69,7 @@ namespace ShoppingCart
             else
             {
                 app.UseExceptionHandler("/Home/Error");
+                app.UseHsts();
             }
             app.UseStaticFiles();
 

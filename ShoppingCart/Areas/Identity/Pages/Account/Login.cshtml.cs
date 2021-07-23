@@ -12,6 +12,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using ShoppingCart.Areas.Identity.Data;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using ShoppingCart.Models;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace ShoppingCart.Areas.Identity.Pages.Account
 {
@@ -89,6 +94,10 @@ namespace ShoppingCart.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
+                    //Genrating jwt token 
+                    var userName = await _userManager.FindByEmailAsync(Input.Email);
+                    var token = GenerateJWTToken(userName.ToString());
+                    TempData["JwtToken"] = token;
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
@@ -109,6 +118,27 @@ namespace ShoppingCart.Areas.Identity.Pages.Account
 
             // If we got this far, something failed, redisplay form
             return Page();
+        }
+
+        private object GenerateJWTToken(string userName)
+        {
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(JWTConstants.Key));
+            var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.UniqueName, userName)
+            };
+
+            var token = new JwtSecurityToken(
+                JWTConstants.Issuer,
+                JWTConstants.Key,
+                claims,
+                expires: DateTime.Now.AddDays(7),
+                signingCredentials: cred
+                );
+            var results = new JwtSecurityTokenHandler().WriteToken(token);
+            return results;
         }
     }
 }
